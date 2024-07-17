@@ -1,0 +1,1621 @@
+CREATE TABLE DRIVER	(Drivers_License_No                          VARCHAR2(15)         NOT NULL,       Insurance_Policy_No                           VARCHAR2(20),       Insurer_Name                                       VARCHAR2(50),       Insurer_Policy_Type                            VARCHAR2(20),  CONSTRAINT DRIVER_PK PRIMARY KEY (Drivers_License_No));  INSERT INTO DRIVER VALUES
+('7777777',
+'90009',
+'Denna Pesic',
+'Contingent');
+
+INSERT INTO DRIVER VALUES
+('8888888',
+'1110001',
+'Jermayne Hardcastle',
+'Contingent');
+
+INSERT INTO DRIVER VALUES
+('55555',
+'122242424',
+'Chris Haley',
+'Insured');
+
+INSERT INTO DRIVER VALUES
+('434343',
+'122242424',
+'Grady Breathing',
+'Insured');
+
+INSERT INTO DRIVER VALUES
+('87878',
+'4556454',
+'Allen Frye',
+'Insured');
+
+INSERT INTO DRIVER VALUES
+('3456',
+'98765',
+'Ororo Monroe',
+'Insured');
+INSERT INTO DRIVER VALUES
+('4567890',
+'0987654',
+'Yourke Bouzan',
+'Insured');
+
+INSERT INTO DRIVER VALUES
+('12345',
+'0987',
+'Hank Hill',
+'Insured');
+
+INSERT INTO DRIVER VALUES
+('1112',
+'1990',
+'Peter Laughton',
+'Insured');
+INSERT INTO DRIVER VALUES
+('5689',
+'1989',
+'Jordan Keegan',
+'Insured');
+
+INSERT INTO DRIVER VALUES
+('1229',
+'1988',
+'James Paul',
+'Insured');
+
+INSERT INTO DRIVER VALUES
+('7878',
+'1967',
+'Max Jefferson',
+'Insured');
+
+INSERT INTO DRIVER VALUES
+('0909',
+'1968',
+'Diana Prince',
+'Insured');
+
+INSERT INTO DRIVER VALUES
+('6589',
+'1948',
+'Wayne Kent',
+'Insured');
+
+INSERT INTO DRIVER VALUES
+('4547',
+'09875',
+'Billy Rice',
+'Insured');CREATE TABLE EMPLOYEE(Employee_ID                                    NUMBER(11,0)                  NOT NULL,	 Full_Name                    VARCHAR2(50)                   NOT NULL,	 Date_of_Birth                                    DATE,                                   	 Address                                    VARCHAR2(100),                 	 Hire_Date                                            DATE,                                  Employee_Type                                    VARCHAR2(20),CONSTRAINT EMPLOYEE_PK PRIMARY KEY (Employee_ID));INSERT INTO EMPLOYEE VALUES
+(1,                                  
+	 'Dillon Funk',                    
+	 '10-NOV-1990',                                                                     
+	 '321 Street Ln. Ames, IA 12345',                                                   
+	 '1-APR-2016',                                                                       
+ 'Front Desk');
+ 
+INSERT INTO EMPLOYEE VALUES
+(2,                                  
+	 'Travis Mainter',                    
+	 '13-Mar-1986',                                                                     
+	 '456 Rayne st. Ames, IA 12345',                                                   
+	 '8-AUG-2016',                                                                       
+ 'Front Desk');
+ 
+INSERT INTO EMPLOYEE VALUES
+ (3,
+  'Skelly Czajkowski',
+  '28-DEC-1989',
+  '25139 Paget Circle Ames, IA 12345',
+   '24-JUL-2015',
+   'Front Desk');
+
+INSERT INTO EMPLOYEE VALUES
+   (4,
+    'Shelley Michelmore',
+    '26-SEP-1992',
+    '57 Crebbles Dr. Ames, IA 78900',
+    '26-SEP-2018',
+     'Front Desk');
+        
+INSERT INTO EMPLOYEE VALUES
+(5,                                  
+	 'Vincent Jackson',                    
+	 '15-MAY-1990',                                                                     
+	 '4867 Crenshaw Rd. Ames, IA 12345',                                                   
+	 '19-AUG-2016',                                                                       
+     'Porter');
+     
+INSERT INTO EMPLOYEE VALUES
+(6,                                  
+	 'Walker Herschell',                    
+	 '12-Nov-1986',                                                                     
+	 '345 Rayne st. Ames, IA 12345',                                                   
+	 '6-FEB-2017',                                                                       
+     'Mechanic');
+     
+INSERT INTO EMPLOYEE VALUES
+(7,                                  
+	 'Barry Webb',                    
+	 '21-APR-1980',                                                                     
+	 '123 Rayne st. Ames, IA 12345',                                                   
+	 '5-JUN-2015',                                                                       
+    'Manager');
+    
+INSERT INTO EMPLOYEE VALUES
+(8,                                  
+	 'Tori Holt',                    
+	 '14-May-1986',                                                                     
+	 '334 Rock Rd. Ames, IA 12345',                                                   
+	 '3-JUL-2016',                                                                       
+      'Manager');
+      
+INSERT INTO EMPLOYEE VALUES
+(9,                                  
+	 'Cain Jacobs',                    
+	 '20-JUN-1970',                                                                     
+	 '456 Main st. Ames, IA 12345',                                                   
+	 '8-APR-2015',                                                                       
+     'Mechanic');
+     
+INSERT INTO EMPLOYEE VALUES
+(10,                                  
+	 'Mark Williams',                    
+	 '13-Nov-1986',                                                                     
+	 '990 Rayne st. Ames, IA 12345',                                                   
+	 '19-AUG-2015',                                                                       
+      'Mechanic');
+      
+INSERT INTO EMPLOYEE VALUES
+(11,                                  
+	 'Marvin Rice',                    
+	 '13-Mar-1985',                                                                     
+	 '557 Rayne st. Ames, IA 12345',                                                   
+	 '11-JUL-2016',                                                                       
+     'Porter');
+     
+INSERT INTO EMPLOYEE VALUES
+(12,                                  
+	 'LaDanian Peterson',                    
+	 '14-Mar-1986',                                                                     
+	 '456 Terra st. Ames, IA 12345',                                                   
+	 '9-MAR-2017',                                                                       
+      'Porter');
+      
+INSERT INTO EMPLOYEE VALUES
+(13,                                  
+	 'Marcus Williams',                    
+	 '20-Nov-1990',                                                                     
+	 '778 Rayne st. Ames, IA 12345',                                                   
+	 '8-AUG-2016',                                                                       
+     'Porter');
+     
+INSERT INTO EMPLOYEE VALUES
+(14,                                  
+	 'Desmond Woodson',                    
+	 '13-Mar-1988',                                                                     
+	 '456 Crane Dr. Ames, IA 12345',                                                   
+	 '8-AUG-2015',                                                                       
+     'Mechanic');
+     
+INSERT INTO EMPLOYEE VALUES
+(15,                                  
+	 'Sara Swift',                    
+	 '20-Mar-1989',                                                                     
+	 '998 Rayne st. Ames, IA 12345',                                                   
+	 '2-AUG-2015',                                                                       
+     'Manager');CREATE TABLE VEHICLE	(Vehicle_ID                           NUMBER(11,0)                   NOT NULL,	 Daily_Price                           DECIMAL(5,2),                    	 Vehicle_Make_Model                      VARCHAR2(100),                                       Vehicle_Type                        VARCHAR2(50),                    Luggage_Capacity                 NUMBER(11,0),                             Seat_Number                         NUMBER(11, 0),                     Start_Date                              DATE,                                     Expiration_Date                     DATE,                                  CONSTRAINT VEHICLE_PK PRIMARY KEY (Vehicle_ID));
+
+INSERT INTO VEHICLE VALUES
+ (1,
+  50,
+  'Toyota Camry',
+  'Mid-Size',
+  15,
+  5,
+  '15-DEC-2015',
+  '15-DEC-2025');
+
+INSERT INTO VEHICLE VALUES
+ (2,
+  50,
+  'Honda Civic',
+  'Compact',
+  14,
+  4,
+  '15-DEC-2015',
+  '15-DEC-2025');
+
+INSERT INTO VEHICLE VALUES
+ (3,
+  50,
+  'Lincoln Navigator',
+  'SUV',
+  25,
+  8,
+  '15-DEC-2015',
+  '15-DEC-2025');
+
+INSERT INTO VEHICLE VALUES
+ (4,
+  50,
+  'Cadillac Escalade',
+  'SUV',
+  25,
+  8,
+  '15-DEC-2015',
+  '15-DEC-2025');
+
+INSERT INTO VEHICLE VALUES
+ (5,
+  50,
+  'Ford Freestyle',
+  'SUV',
+  25,
+  8,
+  '15-DEC-2015',
+  '15-DEC-2025');
+
+INSERT INTO VEHICLE VALUES
+ (6,
+  50,
+  'Hummer H3',
+  'SUV',
+  25,
+  8,
+  '15-DEC-2015',
+  '15-DEC-2025');
+
+INSERT INTO VEHICLE VALUES
+ (7,
+  50,
+  'Subaru Crosstrek',
+  'SUV',
+  25,
+  8,
+  '15-DEC-2015',
+  '15-DEC-2025');
+
+INSERT INTO VEHICLE VALUES
+ (8,
+  50,
+  'Subaru Legacy',
+  'Mid-Size',
+  15,
+  5,
+  '15-DEC-2015',
+  '15-DEC-2025');
+
+INSERT INTO VEHICLE VALUES
+ (9,
+  50,
+  'Honda Accord',
+  'Mid-Size',
+  15,
+  5,
+  '15-DEC-2015',
+  '15-DEC-2025');
+
+INSERT INTO VEHICLE VALUES
+ (10,
+  50,
+  'Nissan Altima',
+  'Mid-Size',
+  15,
+  5,
+  '15-DEC-2015',
+  '15-DEC-2025');
+  
+INSERT INTO VEHICLE VALUES
+ (11,
+  50,
+  'Lexus ES',
+  'Mid-Size',
+  15,
+  5,
+  '15-DEC-2015',
+  '15-DEC-2025');
+
+INSERT INTO VEHICLE VALUES
+ (12,
+  50,
+  'Mazda 3',
+  'Compact',
+  14,
+  4,
+  '15-DEC-2015',
+  '15-DEC-2025');
+
+INSERT INTO VEHICLE VALUES
+ (13,
+  50,
+  'Kia Forte',
+  'Compact',
+  14,
+  4,
+  '15-DEC-2015',
+  '15-DEC-2025');
+
+INSERT INTO VEHICLE VALUES
+ (14,
+  50,
+  'Volkswagen Golf',
+  'Compact',
+  14,
+  4,
+  '15-DEC-2015',
+  '15-DEC-2025');
+
+INSERT INTO VEHICLE VALUES
+ (15,
+  50,
+  'Hyundai Elantra',
+  'Compact',
+  14,
+  4,
+  '15-DEC-2015',
+  '15-DEC-2025');
+
+
+CREATE TABLE PORTER	(Porter_ID                    NUMBER(11,0)                  NOT NULL,           Skill_Description         VARCHAR(250),	Vehicle_ID                    NUMBER(11,0)                  NOT NULL,CONSTRAINT PORTER_PK PRIMARY KEY (Porter_ID),CONSTRAINT PORTER_FK1 FOREIGN KEY (Porter_ID) REFERENCES EMPLOYEE (Employee_ID),CONSTRAINT PORTER_FK2 FOREIGN KEY (Vehicle_ID) REFERENCES VEHICLE (Vehicle_ID));
+
+INSERT INTO PORTER VALUES
+ (5,
+  'keeps track of parked vehicles and makes sure that the parking lot is neat and presentable',
+  1);INSERT INTO PORTER VALUES
+ (11,
+  'keeps track of parked vehicles and makes sure that the parking lot is neat and presentable',
+  2);
+
+INSERT INTO PORTER VALUES
+ (12,
+  'keeps track of parked vehicles and makes sure that the parking lot is neat and presentable',
+  3);
+
+INSERT INTO PORTER VALUES
+ (13,
+  'keeps track of parked vehicles and makes sure that the parking lot is neat and presentable',
+  4);CREATE TABLE FRONT_DESK(Front_Desk_ID                NUMBER(11,0)                  NOT NULL,    Skill_Description               VARCHAR(250),CONSTRAINT FRONT_DESK_PK PRIMARY KEY (Front_Desk_ID),CONSTRAINT FRONT_DESK_FK1 FOREIGN KEY (Front_Desk_ID) REFERENCES EMPLOYEE (Employee_ID));INSERT INTO FRONT_DESK VALUES      (1,       'Takes sign ins. Processes returns');
+
+INSERT INTO FRONT_DESK VALUES
+ (2,
+  'keeps track of parked vehicles and makes sure that the parking lot is neat and presentable');
+
+INSERT INTO FRONT_DESK VALUES
+ (3,
+  'keeps track of parked vehicles and makes sure that the parking lot is neat and presentable');
+
+INSERT INTO FRONT_DESK VALUES
+ (4,
+  'keeps track of parked vehicles and makes sure that the parking lot is neat and presentable');
+       CREATE TABLE MANAGER	(Manager_ID                                    NUMBER(11,0)                  NOT NULL,	 Skill_Description         VARCHAR(250),CONSTRAINT MANAGER_PK PRIMARY KEY (Manager_ID),CONSTRAINT MANAGER_FK1 FOREIGN KEY (Manager_ID) REFERENCES EMPLOYEE (Employee_ID));
+
+INSERT INTO MANAGER VALUES
+ (7,
+  'keeps track of employees & handles disputes');
+
+INSERT INTO MANAGER VALUES
+ (8,
+  'keeps track of employees & handles disputes');
+
+INSERT INTO MANAGER VALUES
+ (15,
+  'keeps track of employees & handles disputes');
+
+CREATE TABLE MECHANIC(Mechanic_ID                NUMBER(11,0)                  NOT NULL,    Skill_Description               VARCHAR(250),CONSTRAINT MECHANIC_PK PRIMARY KEY (Mechanic_ID),CONSTRAINT MECHANIC_FK1 FOREIGN KEY (Mechanic_ID) REFERENCES EMPLOYEE (Employee_ID));
+
+INSERT INTO MECHANIC VALUES
+ (/* Mechanic_ID */ 6,
+  'completes maintenance & repairs of vehicles');
+
+INSERT INTO MECHANIC VALUES
+ (/* Mechanic_ID */ 9,
+  'completes maintenance & repairs of vehicles');
+
+INSERT INTO MECHANIC VALUES
+ (/* Mechanic_ID */ 10,
+  'completes maintenance & repairs of vehicles');
+
+INSERT INTO MECHANIC VALUES
+ (14,
+  'completes maintenance & repairs of vehicles');CREATE TABLE CUSTOMER	(Customer_ID		NUMBER(11,0)	NOT NULL,	 Full_Name 	VARCHAR2(50)	NOT NULL,	 Date_of_Birth                                    DATE,                                   	 Address              VARCHAR2(100),                 	 Phone_Number                                    VARCHAR(20),                	 Drivers_License_No                          VARCHAR2(15)          NOT NULL,CONSTRAINT CUSTOMER_PK PRIMARY KEY (Customer_ID),CONSTRAINT CUSTOMER_FK FOREIGN KEY (Drivers_License_No) REFERENCES DRIVER(Drivers_License_No));INSERT INTO CUSTOMER VALUES(1, 'Denna Pesic','31-DEC-1990','123 Lane St., Ames, IA 12345','123-456-7890','7777777');INSERT INTO CUSTOMER VALUES(2, 'Jermayne Hardcastle','28-MAR-2022','547 Elm St,  Ames, IA 12345','515-836-1009','8888888');INSERT INTO CUSTOMER VALUES
+(3, 
+'Chris Haley',
+'28-Dec-1989',
+'09890 Paget Circle Ames, IA 12345',
+'515-456-0998',
+'55555');
+
+INSERT INTO CUSTOMER VALUES
+(4, 
+'Grady Breathing',
+'5-SEP-1990',
+'123 Bar Ave. Ames, IA 12345',
+'515-234-0087',
+'434343');
+
+INSERT INTO CUSTOMER VALUES
+(5, 
+'Allen Frye',
+'4-AUG-1970',
+'234 Far Rd. Ames, IA 12345',
+'515-457-0775',
+'87878');
+
+INSERT INTO CUSTOMER VALUES
+(6, 
+'Ororo Monroe',
+'4-MAY-1980',
+'789 Far Rd. Ames, IA 12345',
+'515-123-0987',
+'3456');
+
+INSERT INTO CUSTOMER VALUES
+(7, 
+'Yourke Bouzan',
+'5-JUN-1985',
+'987 Rock Rd. Ames, IA 12345',
+'515-098-0087',
+'4567890');
+
+INSERT INTO CUSTOMER VALUES
+(8, 
+'Hank Hill',
+'21-JUN-1986',
+'432 Tank Ln. Ames, IA 12345',
+'515-234-8865',
+'12345');
+
+INSERT INTO CUSTOMER VALUES
+(9, 
+'Peter Laughton',
+'11-JUL-1988',
+'334 1st St. Ames, IA 12345',
+'515-123-0554',
+'1112');
+
+INSERT INTO CUSTOMER VALUES
+(10, 
+'Jordan Keegan',
+'11-APR-1992',
+'335 2nd St. Ames, IA 12345',
+'515-098-0773',
+'5689');
+
+INSERT INTO CUSTOMER VALUES
+(11, 
+'James Paul',
+'13-NOV-1991',
+'1 Cranberry Ave. Ames, IA 12345',
+'515-149-0543',
+'1229');
+
+INSERT INTO CUSTOMER VALUES
+(12, 
+'Max Jefferson',
+'13-JAN-1990',
+'19 Cranberry Ave. Ames, IA 12345',
+'515-434-4430',
+'7878');
+
+INSERT INTO CUSTOMER VALUES
+(13, 
+'Diana Prince',
+'13-JAN-1990',
+'357 Axe Rd. Ames, IA 12345',
+'515-443-0005',
+'0909');
+
+INSERT INTO CUSTOMER VALUES
+(14, 
+'Wayne Kent',
+'13-JAN-1990',
+'9887 Crab Rd. Ames, IA 12345',
+'515-443-1432',
+'6589');
+
+INSERT INTO CUSTOMER VALUES
+(15, 
+'Billy Rice',
+'21-FEB-1989',
+'443 Train Rd. Ames, IA 12345',
+'515-443-1432',
+'4547');
+CREATE TABLE RESERVATION	(Reservation_ID                        NUMBER(11,0)               NOT NULL,	 Booking_Date                          DATE,                                	 Booked_Car_Type                   VARCHAR2(50),                 	 Start_Date                                 DATE,                             End_Date                                 DATE,                       Customer_ID                           NUMBER(11,0)         NOT NULL, Front_Desk_ID                           NUMBER(11,0)         NOT NULL ,CONSTRAINT RESERVATION_PK PRIMARY KEY (Reservation_ID),CONSTRAINT RESERVATION_FK1 FOREIGN KEY (Customer_ID) REFERENCES CUSTOMER (Customer_ID),CONSTRAINT RESERVATION_FK2 FOREIGN KEY (Front_Desk_ID) REFERENCES FRONT_DESK (Front_Desk_ID));INSERT INTO RESERVATION VALUES
+(1,
+'1-JAN-2022',
+'SUV',
+'17-FEB-2022',
+'20-FEB-2022',
+1,
+1);
+
+INSERT INTO RESERVATION VALUES
+(2,
+'1-JAN-2022',
+'SUV',
+'24-MAR-2022',
+'28-MAR-2022',
+2,
+2);
+
+INSERT INTO RESERVATION VALUES
+(3,
+'1-JAN-2022',
+'SUV',
+'16-APR-2022',
+'22-APR-2022',
+3,
+3);
+
+INSERT INTO RESERVATION VALUES
+(4,
+'1-JAN-2022',
+'SUV',
+'14-APR-2021',
+'20-APR-2021',
+4,
+4);
+
+INSERT INTO RESERVATION VALUES
+(5,
+'1-JAN-2022',
+'SUV',
+'16-MAR-2022',
+'22-MAR-2022',
+5,
+1);
+
+INSERT INTO RESERVATION VALUES
+(6,
+'1-JAN-2022',
+'Mid_Size',
+'2-APR-2022',
+'9-APR-2022',
+6,
+2);
+
+INSERT INTO RESERVATION VALUES
+(7,
+'1-JAN-2022',
+'Mid_Size',
+'20-FEB-2022',
+'1-MAR-2022',
+7,
+3);
+
+INSERT INTO RESERVATION VALUES
+(8,
+'1-JAN-2022',
+'Mid_Size',
+'20-MAR-2022',
+'1-APR-2022',
+8,
+4);
+
+INSERT INTO RESERVATION VALUES
+(9,
+'1-JAN-2022',
+'Mid_Size',
+'15-JAN-2022',
+'30-JAN-2022',
+9,
+1);
+
+INSERT INTO RESERVATION VALUES
+(10,
+'5-JAN-2022',
+'Mid_Size',
+'1-APR-2022',
+'3-APR-2022',
+10,
+2);
+
+INSERT INTO RESERVATION VALUES
+(11,
+'2-FEB-2022',
+'Compact',
+'3-MAR-2022',
+'25-MAR-2022',
+11,
+2);
+
+INSERT INTO RESERVATION VALUES
+(12,
+'1-APR-2022',
+'Compact',
+'17-APR-2022',
+'22-APR-2022',
+12,
+2);
+
+INSERT INTO RESERVATION VALUES
+(13,
+'1-JAN-2022',
+'Compact',
+'1-FEB-2022',
+'3-FEB-2022',
+13,
+2);
+
+INSERT INTO RESERVATION VALUES
+(14,
+'1-JAN-2022',
+'Compact',
+'2-MAR-2022',
+'4-MAR-2022',
+14,
+2);
+
+INSERT INTO RESERVATION VALUES
+(15,
+'1-JAN-2022',
+'Compact',
+'11-JAN-2022',
+'15-JAN-2022',
+15,
+2);
+
+INSERT INTO RESERVATION VALUES
+(16,
+'16-FEB-2022',
+'Compact',
+'13-MAR-2022',
+'22-MAR-2022',
+15,
+2);
+
+INSERT INTO RESERVATION VALUES
+(17,
+'17-FEB-2022',
+'Compact',
+'25-MAR-2022',
+'22-APR-2022',
+14,
+2);
+
+INSERT INTO RESERVATION VALUES
+(18,
+'1-JAN-2022',
+'Mid_Size',
+'25-JAN-2022',
+'22-FEB-2022',
+13,
+2);
+
+INSERT INTO RESERVATION VALUES
+(19,
+'12-JAN-2022',
+'Mid_Size',
+'25-JAN-2022',
+'22-FEB-2022',
+11,
+2);
+
+INSERT INTO RESERVATION VALUES
+(21,
+'12-JAN-2022',
+'SUV',
+'20-JAN-2022',
+'22-JAN-2022',
+2,
+2);CREATE TABLE PAYMENT	(Payment_ID                                 NUMBER(11,0)                  NOT NULL,                     	 Name_on_Card                             VARCHAR2(50),                      	 Card_Number                                CHAR(16),                               	 Expiration_Date                            DATE,                                     	Billing_Address                              VARCHAR2(100),                   	 Card_Type                                     VARCHAR2(20),                    	 Customer_ID                                 NUMBER(11,0)      NOT NULL,CONSTRAINT PAYMENT_PK PRIMARY KEY (Payment_ID),CONSTRAINT PAYMENT_FK1 FOREIGN KEY (Customer_ID) REFERENCES CUSTOMER (Customer_ID));INSERT INTO PAYMENT VALUES
+(1,
+'Denna Pesic',
+'12345678901234',
+'01-JAN-2028',
+'123 Lane St., Ames, IA 12345',
+'Visa',
+1);
+
+INSERT INTO PAYMENT VALUES
+(2,
+'Jermayne Hardcastle',
+'12345678901230',
+'01-JAN-2028',
+'547 Elm St, Ames, IA 12345',
+'Visa',
+2);
+
+INSERT INTO PAYMENT VALUES
+(3,
+'Chris Haley',
+'12345678901231',
+'01-JAN-2028',
+'09890 Paget Circle Ames, IA 12345',
+'Visa',
+3);
+
+INSERT INTO PAYMENT VALUES
+(4,
+'Grady Breathing',
+'12345678901232',
+'01-JAN-2028',
+'123 Bar Ave. Ames, IA 12345',
+'Visa',
+4);
+
+INSERT INTO PAYMENT VALUES
+(5,
+'Allen Frye',
+'12345678901233',
+'01-JAN-2028',
+'234 Far Rd. Ames, IA 12345',
+'Visa',
+5);INSERT INTO PAYMENT VALUES
+(6,
+'Ororo Monroe',
+'12345678901233',
+'01-JAN-2028',
+'789 Far Rd. Ames, IA 12345',
+'Visa',
+6);
+
+
+INSERT INTO PAYMENT VALUES
+(7,
+'Yourke Bouzan',
+'12345678901234',
+'01-JAN-2028',
+'987 Rock Rd. Ames, IA 12345',
+'Visa',
+7);
+
+INSERT INTO PAYMENT VALUES
+(8,
+'Hank Hill',
+'12345678901235',
+'01-JAN-2028',
+'432 Tank Ln. Ames, IA 12345',
+'Visa',
+8);
+
+INSERT INTO PAYMENT VALUES
+(9,
+'Peter Laughton',
+'12345678901236',
+'01-JAN-2028',
+'334 1st St. Ames, IA 12345',
+'Visa',
+9);
+
+INSERT INTO PAYMENT VALUES
+(10,
+'Jordan Keegan',
+'12345678901237',
+'01-JAN-2028',
+'335 2nd St. Ames, IA 12345',
+'Visa',
+10);
+
+INSERT INTO PAYMENT VALUES
+(11,
+'James Paul',
+'12345678901238',
+'01-JAN-2028',
+'1 Cranberry Ave. Ames, IA 12345',
+'Mastercard',
+11);
+
+INSERT INTO PAYMENT VALUES
+(12,
+'Max Jefferson',
+'12345678901239',
+'01-JAN-2028',
+'19 Cranberry Ave. Ames, IA 12345',
+'Mastercard',
+12);
+
+INSERT INTO PAYMENT VALUES
+(13,
+'Diana Prince',
+'12345678901240',
+'01-JAN-2028',
+'357 Axe Rd. Ames, IA 12345',
+'Mastercard',
+13);
+
+INSERT INTO PAYMENT VALUES
+(14,
+'Wayne Kent',
+'12345678901241',
+'01-JAN-2028',
+'9887 Crab Rd. Ames, IA 12345',
+'Mastercard',
+14);
+
+
+INSERT INTO PAYMENT VALUES
+(15,
+'Ryan Reynolds',
+'12345678901241',
+'01-JAN-2028',
+'9887 Crab Rd. Ames, IA 12345',
+'Mastercard',
+15);
+
+CREATE TABLE CONTRACT	(Contract_ID                            NUMBER(11,0)               NOT NULL,	 Inventory_Number                       NUMBER(11,0),	 Rental_Location                        VARCHAR2(100),                            	 Type_of_Car_Rent                       VARCHAR2(20),                              	 Date_and_Time_In                       TIMESTAMP,                                             Date_and_Time_Out                      TIMESTAMP,                                              Daily_Rental_Rate                      DECIMAL(5,2),                                       Discount                               DECIMAL(5,2),                                        Taxes_and_Fees                         DECIMAL(5,2),                                         Total_Purchase_Amount                  DECIMAL(7,2),                                        Vehicle_ID                             NUMBER(11,0)           NOT NULL,         Front_Desk_ID                            NUMBER(11,0)           NOT NULL,         Reservation_ID                         NUMBER(11,0)           NOT NULL,CONSTRAINT CONTRACT_PK PRIMARY KEY (Contract_ID),CONSTRAINT CONTRACT_FK1 FOREIGN KEY (Vehicle_ID) REFERENCES VEHICLE (Vehicle_ID),CONSTRAINT CONTRACT_FK2 FOREIGN KEY (Front_Desk_ID) REFERENCES FRONT_DESK (Front_Desk_ID),CONSTRAINT CONTRACT_FK3 FOREIGN KEY (Reservation_ID) REFERENCES RESERVATION (Reservation_ID));INSERT INTO CONTRACT VALUES
+(1,
+/*Inventory Number*/ 1,
+'Ames',
+'SUV',
+'20-FEB-2022 09:39:16.78',
+'17_FEB-2022 09:39:16.78',
+/*Rate*/ 50.00,
+/*Discounted Rate*/ 0,
+/*Taxes & Fees*/ 1.12,
+/*Total*/ 168.00,
+/*Vehicle*/ 3,
+/*Front_Desk*/ 2,
+/*Reservation*/ 1);
+
+INSERT INTO CONTRACT VALUES
+(2,
+/*Inventory Number*/ 2,
+'Ames',
+'SUV',
+'28-MAR-2022 09:39:16.78',
+'24-MAR-2022 09:39:16.78',
+/*Rate*/ 50.00,
+/*Discounted Rate*/ 0,
+/*Taxes & Fees*/ 1.12,
+/*Total*/ 224.00,
+/*Vehicle*/ 5,
+/*Front_Desk*/ 2,
+/*Reservation*/ 2);
+
+INSERT INTO CONTRACT VALUES
+(3,
+/*Inventory Number*/ 3,
+'Ames',
+'SUV',
+'22-APR-2022 09:39:16.78',
+'16-APR-2022 09:39:16.78',
+/*Rate*/ 50.00,
+/*Discounted Rate*/ 0,
+/*Taxes & Fees*/ 1.12,
+/*Total*/ 336.00,
+/*Vehicle*/ 4,
+/*Front_Desk*/ 2,
+/*Reservation*/ 3);
+
+INSERT INTO CONTRACT VALUES
+(4,
+/*Inventory Number*/ 4,
+'Ames',
+'SUV',
+'22-APR-2022 09:39:16.78',
+'16-APR-2022 09:39:16.78',
+/*Rate*/ 50.00,
+/*Discounted Rate*/ 0,
+/*Taxes & Fees*/ 1.12,
+/*Total*/ 336.00,
+/*Vehicle*/ 6,
+/*Front_Desk*/ 2,
+/*Reservation*/ 4);
+
+INSERT INTO CONTRACT VALUES
+(5,
+/*Inventory Number*/ 5,
+'Ames',
+'SUV',
+'22-MAR-2022 09:39:16.78',
+'16-MAR-2022 09:39:16.78',
+/*Rate*/ 50.00,
+/*Discounted Rate*/ 0,
+/*Taxes & Fees*/ 1.12,
+/*Total*/ 336.00,
+/*Vehicle*/ 7,
+/*Front_Desk*/ 2,
+/*Reservation*/ 5);
+
+
+INSERT INTO CONTRACT VALUES
+(6,
+/*Inventory Number*/ 6,
+'Ames',
+'Mid-Size',
+'9-APR-2022 09:39:16.78',
+'2-APR-2022 09:39:16.78',
+/*Rate*/ 50.00,
+/*Discounted Rate*/ 0,
+/*Taxes & Fees*/ 1.12,
+/*Total*/ 392.00,
+/*Vehicle*/ 8,
+/*Front_Desk*/ 2,
+/*Reservation*/ 6);
+
+INSERT INTO CONTRACT VALUES
+(7,
+/*Inventory Number*/ 7,
+'Ames',
+'Mid-Size',
+'1-MAR-2022 09:39:16.78',
+'20-FEB-2022 09:39:16.78',
+/*Rate*/ 50.00,
+/*Discounted Rate*/ 0.08,
+/*Taxes & Fees*/ 1.12,
+/*Total*/ 463.68,
+/*Vehicle*/ 9,
+/*Front_Desk*/ 2,
+/*Reservation*/ 7);
+
+INSERT INTO CONTRACT VALUES
+(8,
+/*Inventory Number*/ 8,
+'Ames',
+'Mid-Size',
+'1-APR-2022 09:39:16.78',
+'20-MAR-2022 09:39:16.78',
+/*Rate*/ 50.00,
+/*Discounted Rate*/ 0.08,
+/*Taxes & Fees*/ 1.12,
+/*Total*/ 618.24,
+/*Vehicle*/ 10,
+/*Front_Desk*/ 2,
+/*Reservation*/ 8);
+
+INSERT INTO CONTRACT VALUES
+(9,
+/*Inventory Number*/ 9,
+'Ames',
+'Mid-Size',
+'1-APR-2022 09:39:16.78',
+'20-MAR-2022 09:39:16.78',
+/*Rate*/ 50.00,
+/*Discounted Rate*/ 0.08,
+/*Taxes & Fees*/ 1.12,
+/*Total*/ 618.24,
+/*Vehicle*/ 11,
+/*Front_Desk*/ 2,
+/*Reservation*/ 9);INSERT INTO CONTRACT VALUES
+(10,
+/*Inventory Number*/ 10,
+'Ames',
+'Mid-Size',
+'3-APR-2022 09:39:16.78',
+'1-APR-2022 09:39:16.78',
+/*Rate*/ 50.00,
+/*Discounted Rate*/ 0,
+/*Taxes & Fees*/ 1.12,
+/*Total*/ 112.00,
+/*Vehicle*/ 1,
+/*Front_Desk*/ 2,
+/*Reservation*/ 10);INSERT INTO CONTRACT VALUES
+(11,
+/*Inventory Number*/ 11,
+'Ames',
+'Compact',
+'25-MAR-2022 09:39:16.78',
+'3-MAR-2022 09:39:16.78',
+/*Rate*/ 50.00,
+/*Discounted Rate*/ 0.08,
+/*Taxes & Fees*/ 1.12,
+/*Total*/ 1133.44,
+/*Vehicle*/ 2,
+/*Front_Desk*/ 2,
+/*Reservation*/ 11);
+
+
+INSERT INTO CONTRACT VALUES
+(12,
+/*Inventory Number*/ 12,
+'Ames',
+'Compact',
+'22-APR-2022 09:39:16.78',
+'17-APR-2022 09:39:16.78',
+/*Rate*/ 50.00,
+/*Discounted Rate*/ 0,
+/*Taxes & Fees*/ 1.12,
+/*Total*/ 280.00,
+/*Vehicle*/ 12,
+/*Front_Desk*/ 2,
+/*Reservation*/ 12);INSERT INTO CONTRACT VALUES
+(13,
+/*Inventory Number*/ 13,
+'Ames',
+'Compact',
+'3-FEB-2022 09:39:16.78',
+'1-FEB-2022 09:39:16.78',
+/*Rate*/ 50.00,
+/*Discounted Rate*/ 0,
+/*Taxes & Fees*/ 1.12,
+/*Total*/ 112,
+/*Vehicle*/ 13,
+/*Front_Desk*/ 2,
+/*Reservation*/ 13);
+
+INSERT INTO CONTRACT VALUES
+(14,
+/*Inventory Number*/ 14,
+'Ames',
+'Compact',
+'4-MAR-2022 09:39:16.78',
+'2-MAR-2022 09:39:16.78',
+/*Rate*/ 50.00,
+/*Discounted Rate*/ 0.08,
+/*Taxes & Fees*/ 1.12,
+/*Total*/ 618.24,
+/*Vehicle*/ 14,
+/*Front_Desk*/ 2,
+/*Reservation*/ 14);
+
+INSERT INTO CONTRACT VALUES
+(15,
+/*Inventory Number*/ 14,
+'Ames',
+'Compact',
+'15-JAN-2022 09:39:16.78',
+'11-JAN-2022 09:39:16.78',
+/*Rate*/ 50.00,
+/*Discounted Rate*/ 0,
+/*Taxes & Fees*/ 1.12,
+/*Total*/ 224.00,
+/*Vehicle*/ 15,
+/*Front_Desk*/ 2,
+/*Reservation*/ 15);
+
+
+INSERT INTO CONTRACT VALUES
+(16,
+/*Inventory Number*/ 14,
+'Ames',
+'Compact',
+'22-MAR-2022 09:39:16.78',
+'13-MAR-2022 09:39:16.78',
+/*Rate*/ 50.00,
+/*Discounted Rate*/ 0.08,
+/*Taxes & Fees*/ 1.12,
+/*Total*/ 463.68,
+/*Vehicle*/ 14,
+/*Front_Desk*/ 2,
+/*Reservation*/ 17);
+
+INSERT INTO CONTRACT VALUES
+(17,
+/*Inventory Number*/ 14,
+'Ames',
+'SUV',
+'22-JAN-2022 09:39:16.78',
+'20-JAN-2022 09:39:16.78',
+/*Rate*/ 50.00,
+/*Discounted Rate*/ 0,
+/*Taxes & Fees*/ 1.12,
+/*Total*/ 112.00,
+/*Vehicle*/ 3,
+/*Front_Desk*/ 2,
+/*Reservation*/ 21);
+CREATE TABLE RECEIPT	(Receipt_ID                         NUMBER(11,0)                    NOT NULL,	 Total_Amount                       DECIMAL(7,2),                      	 Total_Taxes                        DECIMAL(7,2),                     	 Final_Payment                      DECIMAL(7,2),                     	 Payment_Date_Time                  TIMESTAMP,                           	 Payment_ID                         NUMBER(11,0)           NOT NULL,	Manager_ID                            NUMBER(11,0)           NOT NULL,CONSTRAINT RECEIPT_PK PRIMARY KEY (Receipt_ID),CONSTRAINT RECEIPT_FK1 FOREIGN KEY (Payment_ID) REFERENCES PAYMENT (Payment_ID),CONSTRAINT RECEIPT_FK2 FOREIGN KEY (Manager_ID) REFERENCES MANAGER (Manager_ID));INSERT INTO RECEIPT VALUES
+(1,
+150.00,
+18.00,
+168.00,
+'21-FEB-2022 09:39:16.78',
+/*Payment_ID*/ 1,
+/*Manager_ID*/ 8
+);
+
+INSERT INTO RECEIPT VALUES
+(2,
+200,
+24.00,
+224.00,
+'29-MAR-2022 09:39:16.78',
+/*Payment_ID*/ 2,
+/*Manager_ID*/ 15
+);
+
+INSERT INTO RECEIPT VALUES
+(3,
+300.00,
+36.00,
+336.00,
+'29-MAR-2022 09:39:16.78',
+/*Payment_ID*/ 3,
+/*Manager_ID*/ 7
+);
+
+INSERT INTO RECEIPT VALUES
+(4,
+300.00,
+36.00,
+336.00,
+'29-MAR-2022 09:39:16.78',
+/*Payment_ID*/ 4,
+/*Manager_ID*/ 7
+);
+
+INSERT INTO RECEIPT VALUES
+(5,
+300.00,
+36.00,
+336.00,
+'29-MAR-2022 09:39:16.78',
+/*Payment_ID*/ 5,
+/*Manager_ID*/ 7
+);INSERT INTO RECEIPT VALUES
+(6,
+350.00,
+42.00,
+392.00,
+'29-MAR-2022 09:39:16.78',
+/*Payment_ID*/ 6,
+/*Manager_ID*/ 7
+);INSERT INTO RECEIPT VALUES
+(7,
+414.00,
+49.68,
+463.68,
+'29-MAR-2022 09:39:16.78',
+/*Payment_ID*/ 7,
+/*Manager_ID*/ 7
+);
+
+
+INSERT INTO RECEIPT VALUES
+(8,
+552.00,
+66.24,
+618.24,
+'29-MAR-2022 09:39:16.78',
+/*Payment_ID*/ 8,
+/*Manager_ID*/ 7
+);
+
+
+INSERT INTO RECEIPT VALUES
+(9,
+552.00,
+66.24,
+618.24,
+'29-MAR-2022 09:39:16.78',
+/*Payment_ID*/ 9,
+/*Manager_ID*/ 7
+);
+
+
+INSERT INTO RECEIPT VALUES
+(10,
+100,
+12,
+112,
+'29-MAR-2022 09:39:16.78',
+/*Payment_ID*/ 10,
+/*Manager_ID*/ 7
+);
+
+
+INSERT INTO RECEIPT VALUES
+(11,
+1012.00,
+121.44,
+1133.44,
+'29-MAR-2022 09:39:16.78',
+/*Payment_ID*/ 11,
+/*Manager_ID*/ 7
+);INSERT INTO RECEIPT VALUES
+(12,
+250.00,
+30.00,
+280.00,
+'29-MAR-2022 09:39:16.78',
+/*Payment_ID*/ 12,
+/*Manager_ID*/ 7
+);
+
+INSERT INTO RECEIPT VALUES
+(13,
+100.00,
+12.00,
+112.00,
+'29-MAR-2022 09:39:16.78',
+/*Payment_ID*/ 13,
+/*Manager_ID*/ 7
+);INSERT INTO RECEIPT VALUES
+(14,
+552.00,
+66.24,
+618.24,
+'29-MAR-2022 09:39:16.78',
+/*Payment_ID*/ 14,
+/*Manager_ID*/ 7
+);
+
+
+INSERT INTO RECEIPT VALUES
+(15,
+200.00,
+24.00,
+224.00,
+'29-MAR-2022 09:39:16.78',
+/*Payment_ID*/ 15,
+/*Manager_ID*/ 7
+);INSERT INTO RECEIPT VALUES
+(16,
+414.00,
+49.68,
+463.68,
+'27-MAR-2022 09:39:16.78',
+/*Payment_ID*/ 15,
+/*Manager_ID*/ 7
+);INSERT INTO RECEIPT VALUES
+(17,
+100.00,
+12.00,
+112.00,
+'28-MAR-2022 09:39:16.78',
+/*Payment_ID*/ 15,
+/*Manager_ID*/ 7
+);
+
+CREATE TABLE VEHICLE_CONDITION	(Maintenance_Service_ID           NUMBER(11,0)                      NOT NULL,	 Date_Time                                   TIMESTAMP,                              	 Car_Status                                  VARCHAR2(50),                        	 Est_Repair_Time                             NUMBER(11,0),                                 	 Return                                      VARCHAR2(50),                          	 Inspection                                  VARCHAR(50),             Vehicle_ID                                  NUMBER(11,0)           NOT NULL,                    	 Receipt_ID                                  NUMBER(11,0)           NOT NULL,	 Contract_ID                                 NUMBER(11,0)           NOT NULL,       Porter_ID                                     NUMBER(11,0)           NOT NULL,                    CONSTRAINT VEHICLE_CONDITION_PK PRIMARY KEY (Maintenance_Service_ID),CONSTRAINT VEHICLE_CONDITION_FK1 FOREIGN KEY (Receipt_ID) REFERENCES RECEIPT (Receipt_ID),CONSTRAINT VEHICLE_CONDITION_FK2 FOREIGN KEY (Contract_ID) REFERENCES CONTRACT(Contract_ID),CONSTRAINT VEHICLE_CONDITION_FK3 FOREIGN KEY (Vehicle_ID) REFERENCES VEHICLE (Vehicle_ID),CONSTRAINT VEHICLE_CONDITION_FK4 FOREIGN KEY (Porter_ID) REFERENCES PORTER (Porter_ID));INSERT INTO VEHICLE_CONDITION VALUES
+(1,
+'20-FEB-22 09:39:16.78',
+/*Status*/ 'OK',
+30,
+'Returned',
+/*Inspection*/ 'Completed',
+/*Vehicle_ID*/ 3,
+/*Receipt_ID*/ 1,
+/*Contract_ID*/ 1,
+/*Porter_ID*/ 12);
+
+
+INSERT INTO VEHICLE_CONDITION VALUES
+(2,
+'28-MAR-22 09:39:16.78',
+/*Status*/ 'OK',
+30,
+'Returned',
+/*Inspection*/ 'Completed',
+/*Vehicle_ID*/ 5,
+/*Receipt_ID*/ 2,
+/*Contract_ID*/ 2,
+/*Porter_ID*/ 12);
+
+INSERT INTO VEHICLE_CONDITION VALUES
+(3,
+'22-APR-22 09:39:16.78',
+/*Status*/ 'OK',
+30,
+'Returned',
+/*Inspection*/ 'Completed',
+/*Vehicle_ID*/ 4,
+/*Receipt_ID*/ 3,
+/*Contract_ID*/ 3,
+/*Porter_ID*/ 12);
+
+INSERT INTO VEHICLE_CONDITION VALUES
+(4,
+'23-APR-22 09:39:16.78',
+/*Status*/ 'OK',
+30,
+'Returned',
+/*Inspection*/ 'Completed',
+/*Vehicle_ID*/ 6,
+/*Receipt_ID*/ 4,
+/*Contract_ID*/ 4,
+/*Porter_ID*/ 12);
+
+INSERT INTO VEHICLE_CONDITION VALUES
+(5,
+'24-APR-22 09:39:16.78',
+/*Status*/ 'OK',
+30,
+'Returned',
+/*Inspection*/ 'Completed',
+/*Vehicle_ID*/ 7,
+/*Receipt_ID*/ 5,
+/*Contract_ID*/ 5,
+/*Porter_ID*/ 12);
+
+INSERT INTO VEHICLE_CONDITION VALUES
+(6,
+'9-APR-22 09:39:16.78',
+/*Status*/ 'OK',
+30,
+'Returned',
+/*Inspection*/ 'Completed',
+/*Vehicle_ID*/ 8,
+/*Receipt_ID*/ 6,
+/*Contract_ID*/ 6,
+/*Porter_ID*/ 12);
+
+INSERT INTO VEHICLE_CONDITION VALUES
+(7,
+'1-MAR-22 09:39:16.78',
+/*Status*/ 'OK',
+30,
+'Returned',
+/*Inspection*/ 'Completed',
+/*Vehicle_ID*/ 9,
+/*Receipt_ID*/ 7,
+/*Contract_ID*/ 7,
+/*Porter_ID*/ 12);
+
+
+INSERT INTO VEHICLE_CONDITION VALUES
+(8,
+'1-APR-22 09:39:16.78',
+/*Status*/ 'OK',
+30,
+'Returned',
+/*Inspection*/ 'Completed',
+/*Vehicle_ID*/ 10,
+/*Receipt_ID*/ 8,
+/*Contract_ID*/ 8,
+/*Porter_ID*/ 12);
+
+INSERT INTO VEHICLE_CONDITION VALUES
+(9,
+'2-APR-22 09:39:16.78',
+/*Status*/ 'OK',
+30,
+'Returned',
+/*Inspection*/ 'Completed',
+/*Vehicle_ID*/ 10,
+/*Receipt_ID*/ 9,
+/*Contract_ID*/ 9,
+/*Porter_ID*/ 12);
+
+
+INSERT INTO VEHICLE_CONDITION VALUES
+(10,
+'2-APR-22 09:39:16.78',
+/*Status*/ 'OK',
+30,
+'Returned',
+/*Inspection*/ 'Completed',
+/*Vehicle_ID*/ 1,
+/*Receipt_ID*/ 10,
+/*Contract_ID*/ 10,
+/*Porter_ID*/ 12);
+
+
+INSERT INTO VEHICLE_CONDITION VALUES
+(11,
+'2-APR-22 09:39:16.78',
+/*Status*/ 'Unsatisfactory',
+30,
+'Returned',
+/*Inspection*/ 'Completed',
+/*Vehicle_ID*/ 2,
+/*Receipt_ID*/ 11,
+/*Contract_ID*/ 11,
+/*Porter_ID*/ 12);
+
+INSERT INTO VEHICLE_CONDITION VALUES
+(12,
+'22-APR-22 09:39:16.78',
+/*Status*/ 'Unsatisfactory',
+30,
+'Returned',
+/*Inspection*/ 'Completed',
+/*Vehicle_ID*/ 12,
+/*Receipt_ID*/ 12,
+/*Contract_ID*/ 12,
+/*Porter_ID*/ 12);
+
+
+INSERT INTO VEHICLE_CONDITION VALUES
+(13,
+'3-APR-22 09:39:16.78',
+/*Status*/ 'Unsatisfactory',
+30,
+'Returned',
+/*Inspection*/ 'Completed',
+/*Vehicle_ID*/ 13,
+/*Receipt_ID*/ 13,
+/*Contract_ID*/ 13,
+/*Porter_ID*/ 5);
+
+INSERT INTO VEHICLE_CONDITION VALUES
+(14,
+'4-MAR-22 09:39:16.78',
+/*Status*/ 'Unsatisfactory',
+30,
+'Returned',
+/*Inspection*/ 'Completed',
+/*Vehicle_ID*/ 14,
+/*Receipt_ID*/ 14,
+/*Contract_ID*/ 14,
+/*Porter_ID*/ 13);
+
+INSERT INTO VEHICLE_CONDITION VALUES
+(15,
+'15-JAN-22 09:39:16.78',
+/*Status*/ 'Unsatisfactory',
+30,
+'Returned',
+/*Inspection*/ 'Completed',
+/*Vehicle_ID*/ 15,
+/*Receipt_ID*/ 15,
+/*Contract_ID*/ 15,
+/*Porter_ID*/ 5);CREATE TABLE AUTO_REPAIR	( Vehicle_ID                                  NUMBER(11,0)           NOT NULL,	  Repair_Charge                       DECIMAL(5,2),        Maintenance_Service_ID      NUMBER(11,0)                NOT NULL,        Mechanic_ID                NUMBER(11,0)                        NOT NULL,               CONSTRAINT AUTO_REPAIR_PK PRIMARY KEY (Vehicle_ID),CONSTRAINT AUTO_REPAIR_FK1 FOREIGN KEY (Vehicle_ID) REFERENCES VEHICLE (Vehicle_ID),CONSTRAINT AUTO_REPAIR_FK2 FOREIGN KEY (Maintenance_Service_ID) REFERENCES VEHICLE_CONDITION (Maintenance_Service_ID),CONSTRAINT AUTO_REPAIR_FK3 FOREIGN KEY (Mechanic_ID) REFERENCES MECHANIC (Mechanic_ID));
+
+INSERT INTO AUTO_REPAIR VALUES
+(/*Vehicle_ID*/ 2,
+/*Repair_Charge*/  200,
+/*Maintenance_Service_ID*/ 11,
+/*Mechanic_ID*/ 10);
+
+INSERT INTO AUTO_REPAIR VALUES
+(/*Vehicle_ID*/ 12,
+/*Repair_Charge*/  200,
+/*Maintenance_Service_ID*/ 12,
+/*Mechanic_ID*/ 9);
+
+INSERT INTO AUTO_REPAIR VALUES
+(/*Vehicle_ID*/ 13,
+/*Repair_Charge*/  200,
+/*Maintenance_Service_ID*/ 13,
+/*Mechanic_ID*/ 10);
+
+INSERT INTO AUTO_REPAIR VALUES
+(/*Vehicle_ID*/ 14,
+/*Repair_Charge*/  200,
+/*Maintenance_Service_ID*/ 14,
+/*Mechanic_ID*/ 10);
+
+INSERT INTO AUTO_REPAIR VALUES
+(/*Vehicle_ID*/ 15,
+/*Repair_Charge*/  200,
+/*Maintenance_Service_ID*/ 15,
+/*Mechanic_ID*/ 10);
+
+CREATE TABLE CAR_INVENTORY	(Inventory_ID                        NUMBER(11,0)           NOT NULL,	Rental_Location				VARCHAR(100),	Type_of_Car                           VARCHAR(100),      Daily_Rate					DECIMAL(5,2),	Disco_Unit					VARCHAR(100),	Date_Out						DATE,                                     	Date_In						DATE,                                     	Vehicle_ID					NUMBER(11,0)           NOT NULL, CONSTRAINT CAR_INVENTORY_PK PRIMARY KEY (Inventory_ID),CONSTRAINT CAR_INVENTORY_FK FOREIGN KEY (Vehicle_ID) REFERENCES VEHICLE(Vehicle_ID));INSERT INTO CAR_INVENTORY VALUES
+(1,
+'Ames',
+'SUV',
+50,
+.8,
+'17-FEB-2022',
+'20-FEB-2022',
+/*Vehicle*/ 3);
+
+INSERT INTO CAR_INVENTORY VALUES
+(2,
+'Ames',
+'SUV',
+50,
+0,
+'28-MAR-2022',
+'24-MAR-2022',
+/*Vehicle*/ 5);
+
+INSERT INTO CAR_INVENTORY VALUES
+(3,
+'Ames',
+'SUV',
+50,
+0,
+'22-APR-2022',
+'16-APR-2022',
+/*Vehicle*/ 4);
+
+
+INSERT INTO CAR_INVENTORY VALUES
+(4,
+'Ames',
+'SUV',
+50,
+0,
+'22-APR-2022',
+'16-APR-2022',
+/*Vehicle*/ 6);
+
+INSERT INTO CAR_INVENTORY VALUES
+(5,
+'Ames',
+'SUV',
+50,
+0,
+'22-APR-2022',
+'16-APR-2022',
+/*Vehicle*/ 7);
+
+
+INSERT INTO CAR_INVENTORY VALUES
+(6,
+'Ames',
+'Mid-size',
+50,
+0,
+'9-APR-2022',
+'2-APR-2022',
+/*Vehicle*/ 8);
+
+
+INSERT INTO CAR_INVENTORY VALUES
+(7,
+'Ames',
+'Mid-size',
+50,
+0,
+'1-MAR-2022',
+'20-FEB-2022',
+/*Vehicle*/ 9);
+
+INSERT INTO CAR_INVENTORY VALUES
+(8,
+'Ames',
+'Mid-size',
+50,
+0,
+'1-APR-2022',
+'20-MAR-2022',
+/*Vehicle*/ 10);
+
+
+INSERT INTO CAR_INVENTORY VALUES
+(9,
+'Ames',
+'Mid-size',
+50,
+0,
+'1-APR-2022',
+'20-MAR-2022',
+/*Vehicle*/ 11);
+
+
+INSERT INTO CAR_INVENTORY VALUES
+(10,
+'Ames',
+'Mid-size',
+50,
+0,
+'1-APR-2022',
+'3-APR-2022',
+/*Vehicle*/ 1);
+
+INSERT INTO CAR_INVENTORY VALUES
+(11,
+'Ames',
+'Compact',
+50,
+0,
+'3-MAR-2022',
+'25-MAR-2022',
+/*Vehicle*/ 2);
+
+INSERT INTO CAR_INVENTORY VALUES
+(12,
+'Ames',
+'Compact',
+50,
+0,
+'1-FEB-2022',
+'3-FEB-2022',
+/*Vehicle*/ 12);
+
+
+INSERT INTO CAR_INVENTORY VALUES
+(13,
+'Ames',
+'Compact',
+50,
+0,
+'1-FEB-2022',
+'3-FEB-2022',
+/*Vehicle*/ 13);
+
+INSERT INTO CAR_INVENTORY VALUES
+(14,
+'Ames',
+'Compact',
+50,
+0,
+'1-FEB-2022',
+'3-FEB-2022',
+/*Vehicle*/ 14);
+
+INSERT INTO CAR_INVENTORY VALUES
+(15,
+'Ames',
+'Compact',
+50,
+0,
+'1-FEB-2022',
+'3-FEB-2022',
+/*Vehicle*/ 15);
+
+
+
